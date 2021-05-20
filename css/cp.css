@@ -1,0 +1,259 @@
+.p{
+    font-family: poppins;
+    font-size: 30;
+    position: absolute;
+    top: 4vw;
+    left: 4vw;
+}
+.img
+{
+    border-radius: 50%;
+
+}
+.p1
+{
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top: 6.8vw;
+    left:10vw;
+    letter-spacing: 0.1cm;
+    font-weight:1000;
+}
+a.one
+{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top: 6.8vw;
+    font-weight: 1000;
+    color: #d19c97;
+    left: 4.4vw;
+
+}
+.P2
+{
+    
+    font-family: poppins;
+    color: #d19c97;
+    font-size: 18;
+    position: absolute;
+    top: 15vw;
+    left: 35.6vw;
+    letter-spacing: 00.1cm;
+
+    font-weight:1000;
+}
+.P3
+{
+   
+    font-family: poppins;
+    color: #d19c97;
+    font-size: 18;
+    position: absolute;
+    top: 20vw;
+    left: 35.6vw;
+    letter-spacing: 00.1cm;
+
+    font-weight:1000; 
+}
+.P4
+{
+    
+    font-family: poppins;
+    letter-spacing: 00.1cm;
+    color: #d19c97;
+    font-size: 18;
+    position: absolute;
+    top: 15vw;
+    left: 65vw;
+    font-weight:1000;
+}
+.P5
+{
+    letter-spacing: 00.1cm;
+
+    font-family: poppins;
+    color: #d19c97;
+    font-size: 18;
+    position: absolute;
+    top: 20vw;
+    left: 65vw;
+    font-weight:1000;
+}
+.P6
+{
+    
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top: 17vw;
+    left: 65vw;
+    font-weight:1000;
+}
+.P7
+{
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top:22vw;
+    left: 65vw;
+    font-weight:1000;
+}
+.P8
+{
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top:22vw;
+    left: 35.6vw;
+    font-weight:1000;
+
+}
+.P9
+{
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top: 35.6vw;
+    left: 35.6vw;
+    font-weight:1000;
+}
+.P12
+{
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top: 17vw;
+    left: 35.6vw;
+    font-weight:1000;
+
+
+}
+.P13
+{
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top: 29vw;
+    left: 20.6vw;
+    font-weight:1000;
+}
+.P14
+{
+    font-family: poppins;
+    font-size: 15;
+    position: absolute;
+    top: 32vw;
+    left: 20.6vw;
+    font-weight:1000;
+}
+.together
+{
+    position: relative;
+}
+.switch {
+    position: absolute;
+    top: 510;
+    left:1000;
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 20;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #d19c97;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #d19c97;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.NOTIFICATIONS
+{
+    position: absolute;
+    left:71vw;
+    top:33vw;
+    font-size: 20px;
+    font-family: 'poppins';
+    color: #000044;
+}
+.NOTIFICATIONS1
+{
+    position: absolute;
+    left:66.4vw;
+    top:35vw;
+    font-size: 15px;
+    font-family: 'poppins';
+    color: rgba(0, 0, 0, 0.726);
+}
+.button {
+    background-color: #d19c97;
+    border: 3px solid white;
+    color: white;
+    position: absolute;
+    top:25vw;
+    left:19vw;
+   height: 45px;
+   width: 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  .image
+  {
+      position: relative;
+  }
+  .material-icons
+{
+    position:relative;
+    color: black;
+}
